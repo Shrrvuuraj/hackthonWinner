@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   background: linear-gradient(135deg
+   ,#734f96 ,pink
+   );
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.form{
+    border: 2px solid black;
+}
+.inputbox{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 50px;
+    justify-content: center;
+}
+.input{
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    background: none;
+}
+.input::placeholder{
+    color: whitesmoke;
+}
+/* button */
+.search{
+ width: 100px;
+  height: 35px;
+
+ 
+}
+.search img{
+    width: 100%;
+}

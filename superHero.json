@@ -1,0 +1,7 @@
+[
+    {"name":"ironman", "image":"./assests/sp.jpg", "tagline":"Heroes aren't born. They're built." ,"description":"xyz"},
+     {"name":"scarlet Witch", "image":"./assests/sp3.jpg", "tagline":"xyz", "description":"xyz"},
+      {"name":"thor", "image":"./assests/spthor.jpg", "tagline":"Two worlds. One hero."   ,"description":"xyz"},
+     {"name":"captain", "image":"./assests/sp4.jpg", "tagline":"xyz", "description":"xyz"},
+      {"name":"spider Man", "image":"./assests/sp5.jpg", "tagline":"xyz", "description":"xyz"}
+]
