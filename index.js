@@ -1,28 +1,28 @@
-let searchButton = document.querySelector('.search') ;
-// console.log(searchButton) ;
+let searchButton = document.querySelector('.login');
 
-searchButton.addEventListener("click",(e)=>{
-    e.preventDefault() ;
-    let input1 = document.querySelector('#input1').value ;
-    let input2 = document.querySelector('#input2').value ;
-    let data = {input1, input2} ;
-
-    checkChangepage(data) ;
-})
-
-
-function checkChangepage(data) {
-    // console.log(data)
+searchButton.addEventListener("click", (e) => {
+    e.preventDefault();
+    let input1 = document.querySelector('#input1').value;
+    let input2 = document.querySelector('#input2').value;
     
-    let arr = {name:'Admin' , password:'123' } ;
+    let data = [
+        {Name: "Shrrvvuu", password: "1234"},
+        {Name: "Arslan", password: "1234"},
+        {Name: "Proman", password: "1234"},
+        {Name: "Admin", password: "123"}
+    ];
 
-    if (data[name] === arr[name]) {
+    checkChangepage(data, input1, input2);
+});
 
-        window.location = "./superHero.html"
-        
-    }else{
-        console.log('ye nahi chaa')
+function checkChangepage(data, username, password) {
+    const foundUser = data.find(user => 
+        user.Name === username && user.password === password
+    );
+
+    if (foundUser) {
+        window.location.href = "./superHero.html";
+    } else {
+        alert('Invalid credentials! Please try again.');
     }
-
-
 }

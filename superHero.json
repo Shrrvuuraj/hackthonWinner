@@ -1,7 +1,32 @@
 [
-    {"name":"ironman", "image":"./assests/sp.jpg", "tagline":"Heroes aren't born. They're built." ,"description":"xyz"},
-     {"name":"scarlet Witch", "image":"./assests/sp3.jpg", "tagline":"xyz", "description":"xyz"},
-      {"name":"thor", "image":"./assests/spthor.jpg", "tagline":"Two worlds. One hero."   ,"description":"xyz"},
-     {"name":"captain", "image":"./assests/sp4.jpg", "tagline":"xyz", "description":"xyz"},
-      {"name":"spider Man", "image":"./assests/sp5.jpg", "tagline":"xyz", "description":"xyz"}
+    {
+        "name": "ironman",
+        "image": "./assests/sp.jpg",
+        "tagline": "Heroes aren't born. They're built.",
+        "description": "Ironman is a genius inventor and fearless leader who combines technology and bravery to protect the world."
+    },
+    {
+        "name": "wanda",
+        "image": "./assests/sp3.jpg",
+        "tagline": "Mystery and power in one.",
+        "description": "Scarlet Witch wields incredible magical abilities with strength and resilience, shaping reality itself."
+    },
+    {
+        "name": "thor",
+        "image": "./assests/spthor.jpg",
+        "tagline": "Two worlds. One hero.",
+        "description": "Thor, the God of Thunder, balances the might of Asgard with his love for Earth, always fighting for justice."
+    },
+    {
+        "name": "captain",
+        "image": "./assests/sp4.jpg",
+        "tagline": "Symbol of courage and honor.",
+        "description": "Captain America leads with unwavering integrity and inspires hope through his selfless heroism."
+    },
+    {
+        "name": "spider man",
+        "image": "./assests/sp5.jpg",
+        "tagline": "With great power comes great responsibility.",
+        "description": "Spider-Man is the agile, witty protector of the streets, always ready to save the day with heart and humor."
+    }
 ]

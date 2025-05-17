@@ -47,9 +47,14 @@ function showDatainUi(superHero) {
   let innerHtml = ` <div class="img">
                 <img src=${superHero.image} >
                </div>
-               <p>Name : <span class="name">${superHero.name}</span></p>
-               <p>Tagline : <span class="tagline"> ${superHero.tagline}</span></p>
-               <p>Description : <span class="description"> ${superHero.description}</span></p>
+              <div class="para">
+               <p><span class="key">Name :</span>
+                <span class="name">${superHero.name}</span>
+                </p>
+               <p><span class="key">Tagline :</span> <span class="tagline"> ${superHero.tagline}
+               </span>
+               </p>
+               <p><span class="key">Description :</span> <span class="description"> ${superHero.description}</span></p></div>
             </div>`;
 
   Card.innerHTML = innerHtml;
